@@ -1,0 +1,225 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .slider_nav{
+        margin-top: 40px;
+    }
+    #three_sc .bor_txt p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    #three_sc .tr_under img{
+        width: 200px;
+    }
+    #three_sc .tr_under{
+        text-align: center;
+    }
+    #three_sc .text_tr h3{
+        font-size: 37px;
+    }
+    #three_sc .text_tr p{
+        font-size: 17px;
+        line-height: 20px;
+    }
+    #three_sc .under_b h4{
+        font-size: 20px;
+    }
+    body #three_sc{
+        margin-bottom: 50px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .slider_nav{
+        margin-top: 40px;
+    }
+    #three_sc .bor_txt p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    #three_sc .tr_under img{
+        width: 200px;
+    }
+    #three_sc .tr_under{
+        text-align: center;
+    }
+    #three_sc .text_tr h3{
+        font-size: 37px;
+    }
+    #three_sc .text_tr p{
+        font-size: 17px;
+        line-height: 20px;
+    }
+    #three_sc .under_b h4{
+        font-size: 20px;
+    }
+    body #three_sc{
+        margin-bottom: 50px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .slider_nav{
+        margin-top: 40px;
+    }
+    #three_sc .bor_txt p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #three_sc .tr_under img{
+        width: 200px;
+    }
+    #three_sc .tr_under{
+        text-align: center;
+    }
+    #three_sc .text_tr h3{
+        font-size: 23px;
+    }
+    #three_sc .text_tr p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #three_sc .under_b h4{
+        font-size: 20px;
+    }
+    body #three_sc{
+        margin-bottom: 50px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .slider_nav{
+        margin-top: 40px;
+    }
+    #three_sc .bor_txt p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #three_sc .tr_under img{
+        width: 200px;
+    }
+    #three_sc .tr_under{
+        text-align: center;
+    }
+    #three_sc .text_tr h3{
+        font-size: 23px;
+    }
+    #three_sc .text_tr p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #three_sc .under_b h4{
+        font-size: 20px;
+    }
+    body #three_sc{
+        margin-bottom: 50px;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media  screen and (max-width : 1200px){
+    nav .right_float a{
+        margin-left: 80px;
+    }
+    .main_menu .right_float li{
+        background-position: 40px center !important;
+    }
+    .logo{
+        padding-left: 50px !important;
+        background-position: 0 !important;
+    }
+}
+@media  screen and (max-width : 992px){
+    .logo{
+        background-position: 240px !important;
+        margin-left: 40px;
+    }
+    .right_float{
+        float: none;
+        padding:0;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 765px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .main_menu{
+        margin: 0;}
+    .logo{
+        display: none;
+    }
+    nav li {
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #c0c0c0;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+    .menu-trigger{
+        display: block;
+        height: 100%;
+        background-color: #8a549e;
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: bold;
+        text-shadow: -2px 2px 0 rgba(1, 1, 1, 1);
+        cursor: pointer;
+    }
+    .right_float{
+        float: none;
+        margin-top: 0;
+    }
+    .right_float a{
+        color: #ffffff;
+        padding: 15px;
+        margin: 0;
+        text-align: center;
+        background-color: #a277b2;
+
+    }
+    .right_float a:hover{
+        background-color: #fff;
+    }
+}
