@@ -1,0 +1,320 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    body  a{
+        font-size: 15px;
+    }
+    header{
+        background-size:cover;
+    }
+    #phone_hernya{
+        background-size: cover;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    header{
+        background-size:cover;
+    }
+    .creatives{
+        margin-top: 40px;
+        padding: 0 10px;
+    }
+    .creatives h1{
+        font-size: 40px;
+    }
+    .creatives p{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 5px;
+    }
+
+
+    /*second section*/
+    #aoi_blue{
+        padding: 0 10px 50px 10px;
+    }
+    #aoi_blue h2{
+        font-size: 15px;
+        background-size: 80px;
+    }
+    #aoi_blue .tabs img{
+        width: 80px;
+    }
+    #aoi_blue .tabs h4{
+        font-size: 20px;
+    }
+    #aoi_blue .tabs p{
+        font-size: 10px;
+    }
+    #lets_blog{
+        padding:  50px 20px 50px 20px;
+    }
+    #lets_blog h2{
+        font-size: 20px;
+        background-size: 60px;
+        line-height: 100px;
+    }
+    #lets_blog p{
+        font-size: 15px;
+    }
+    #lets_blog .blog_wrap h4{
+        font-size: 15px;
+    }
+    #lets_blog .blog_wrap p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    #double{
+        text-align: center;
+        padding:30px 15px 30px 15px
+    }
+    #double img{
+        float: none;
+        margin: 0 0 15px 0;
+    }
+    #double p{
+        display: block;
+        margin-bottom: 15px !important;
+    }
+
+    #phone_hernya{
+        background-size: cover;
+        text-align: center;
+    }
+    #phone_hernya a{
+        width: 90%;
+        margin: 15px auto;
+    }
+    #team{
+        padding: 30px 15px 0 15px;
+        text-align: center;
+    }
+    #team h4{
+        font-size: 25px;
+        background-size: 65px;
+        margin: 0;
+        line-height: 120px;
+    }
+    #team p{
+        font-size: 15px;
+        margin-top: 0;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    header{
+        background-size:cover;
+    }
+    .creatives{
+        margin-top: 40px;
+        padding: 0 10px;
+    }
+    .creatives h1{
+        font-size: 40px;
+    }
+    .creatives p{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 5px;
+    }
+
+
+    /*second section*/
+    #aoi_blue{
+        padding: 0 10px 50px 10px;
+    }
+    #aoi_blue h2{
+        font-size: 15px;
+        background-size: 80px;
+    }
+    #aoi_blue .tabs img{
+        width: 80px;
+    }
+    #aoi_blue .tabs h4{
+        font-size: 20px;
+    }
+    #aoi_blue .tabs p{
+        font-size: 10px;
+    }
+    #lets_blog{
+        padding:  50px 20px 50px 20px;
+    }
+    #lets_blog h2{
+        font-size: 20px;
+        background-size: 60px;
+        line-height: 100px;
+    }
+    #lets_blog p{
+        font-size: 15px;
+    }
+    #lets_blog .blog_wrap h4{
+        font-size: 15px;
+    }
+    #lets_blog .blog_wrap p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    #double{
+        text-align: center;
+        padding:30px 15px 30px 15px
+    }
+    #double img{
+        float: none;
+        margin: 0 0 15px 0;
+    }
+    #double p{
+        display: block;
+        margin-bottom: 15px !important;
+    }
+
+    #phone_hernya{
+        background-size: cover;
+        text-align: center;
+    }
+    #phone_hernya a{
+        width: 90%;
+        margin: 15px auto;
+    }
+    #team{
+        padding: 30px 15px 0 15px;
+        text-align: center;
+    }
+    #team h4{
+        font-size: 25px;
+        background-size: 65px;
+        margin: 0;
+        line-height: 120px;
+    }
+    #team p{
+        font-size: 15px;
+        margin-top: 0;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    header{
+        background-size:cover;
+    }
+    .creatives{
+        margin-top: 40px;
+        padding: 0 10px;
+    }
+    .creatives h1{
+        font-size: 40px;
+    }
+    .creatives p{
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: 5px;
+    }
+
+
+    /*second section*/
+    #aoi_blue{
+        padding: 0 10px 50px 10px;
+    }
+    #aoi_blue h2{
+        font-size: 15px;
+        background-size: 80px;
+    }
+    #aoi_blue .tabs img{
+        width: 80px;
+    }
+    #aoi_blue .tabs h4{
+        font-size: 20px;
+    }
+    #aoi_blue .tabs p{
+        font-size: 10px;
+    }
+    #lets_blog{
+        padding:  50px 20px 50px 20px;
+    }
+    #lets_blog h2{
+        font-size: 20px;
+        background-size: 60px;
+        line-height: 100px;
+    }
+    #lets_blog p{
+        font-size: 15px;
+    }
+    #lets_blog .blog_wrap h4{
+        font-size: 15px;
+    }
+    #lets_blog .blog_wrap p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    #double{
+        text-align: center;
+        padding:30px 15px 30px 15px
+    }
+    #double img{
+        float: none;
+        margin: 0 0 15px 0;
+    }
+    #double p{
+        display: block;
+        margin-bottom: 15px !important;
+    }
+
+    #phone_hernya{
+        background-size: cover;
+        text-align: center;
+    }
+    #phone_hernya a{
+        width: 90%;
+        margin: 15px auto;
+    }
+    #team{
+        padding: 30px 15px 0 15px;
+        text-align: center;
+    }
+    #team h4{
+        font-size: 25px;
+        background-size: 65px;
+        margin: 0;
+        line-height: 120px;
+    }
+    #team p{
+        font-size: 15px;
+        margin-top: 0;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
